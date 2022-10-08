@@ -47,7 +47,8 @@ body {
     font-size: 26px;
     line-height: 1.2;
     color: var(--color-hover);
-    text-decoration: none
+    text-decoration: none;
+    letter-spacing: 0,03em;
 }
 
 .logo1 {
@@ -83,6 +84,8 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0,02em;
+
 }
 
 .link:hover, .link:focus {
@@ -95,6 +98,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0,02em;
 }
 
 .portfolio-link {
@@ -108,6 +112,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0,02em;
 }
 /*link*/
 
@@ -120,8 +125,9 @@ body {
     font-size: inherit;
     line-height: 1.875;
     cursor: pointer;
-    width: 216px;
-    height: 50px;
+    padding: 10px 32px;
+    letter-spacing: 0,06em;
+
 }
 
 .primary-buttons:hover,
@@ -179,6 +185,7 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 30px;
+    letter-spacing: 0,06em;
 }
 
 /* features */
@@ -229,18 +236,22 @@ body {
     line-height: 1.1666;
     text-align: center;
     margin-bottom: 50px;
+    letter-spacing: 0,03em;
 }
 
 .secondary-headers {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0,03em;
+
 }
 
 .regular-text {
     font-size: 14px;
     line-height: 1.7;
     color: var(--color-text);
+    letter-spacing: 0,03em;
 
 }
 
@@ -248,6 +259,7 @@ body {
     font-weight: 500;
     line-height: 1.187;
     text-align: center;
+    letter-spacing: 0,03em;
 }
 
 .secondary-text {
@@ -255,6 +267,7 @@ body {
     color: var(--color-text);
     background-color: var(--color-link);
     text-align: center;
+    letter-spacing: 0,03em;
 }
 
 /* footer */
@@ -271,6 +284,7 @@ body {
     line-height: 2;
     color: var(--color-primary);
     text-decoration: none;
+    letter-spacing: 0,03em;
 }
 
 .buttons-flex {
